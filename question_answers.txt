@@ -1,0 +1,32 @@
+1. How do you specify a TCP socket in Python?
+	The command to specify a TCP socket in Python through
+	the socket module is
+	
+	socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+2. What is the difference between a client socket and a server socket in Python?	I think that the difference between a client socket and a server
+	socket is that the client socket takes actions while the
+	server socket seems to wait and respond to client socket actions
+	
+	They seem to be instantiated in a similar manner but in the
+	client program the client socket sends a payload and initiates
+	the interaction
+
+	The server client in contrast binds to a HOST and a PORT and
+	listens for a client to ask for data. It then sends this data
+	to the client
+
+3. How do we instruct the OS to let us reuse the same bind port?
+	Using a SO_REUSEADDR instructs the OS to let us reuse the same
+	bind port
+
+4. What information do we get about incoming connections?
+	The IP and the port are recieved from incoming connections
+
+5. What is returned by recv() from the server after it is done sending the HTTP request?
+	
+	Data which is returned from the HTTP request is received upon calling
+	recv(). In the case of this program it includes but is not limited
+	to the source of the google.com page as well as a status code.
+
+6. Provide a link to your code on GitHub. 
