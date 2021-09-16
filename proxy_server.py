@@ -28,7 +28,7 @@ def main():
         #allow reused addresses, bind, and set to listening mode
         proxy_start.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         proxy_start.bind((HOST, PORT))
-        proxy_start.listen(1)
+        proxy_start.listen(10)
 
         while True:
             #connect proxy_start

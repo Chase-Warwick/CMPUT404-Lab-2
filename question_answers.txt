@@ -4,7 +4,8 @@
 	
 	socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-2. What is the difference between a client socket and a server socket in Python?	I think that the difference between a client socket and a server
+2. What is the difference between a client socket and a server socket in Python?	
+	I think that the difference between a client socket and a server
 	socket is that the client socket takes actions while the
 	server socket seems to wait and respond to client socket actions
 	
@@ -21,7 +22,8 @@
 	bind port
 
 4. What information do we get about incoming connections?
-	The IP and the port are recieved from incoming connections
+	The IP, the port and the system connecting  are information which we get 
+	about incoming connections.
 
 5. What is returned by recv() from the server after it is done sending the HTTP request?
 	
@@ -30,3 +32,4 @@
 	to the source of the google.com page as well as a status code.
 
 6. Provide a link to your code on GitHub. 
+	https://github.com/Chase-Warwick/CMPUT404-Lab-2
